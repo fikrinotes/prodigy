@@ -1,6 +1,5 @@
 # Prodigy — STEM Learning Hub
 
-![Prodigy Logo](./public/Logo.png)
 
 **Prodigy** adalah platform kurasi sumber belajar terpadu yang berfokus pada bidang STEM (Science, Technology, Engineering, and Mathematics). Platform ini menyediakan berbagai materi pembelajaran berkualitas tinggi untuk berbagai disiplin ilmu seperti Sains, Matematika, Data Science, Artificial Intelligence (AI), Programming, Web Development, dan masih banyak lagi.
 
