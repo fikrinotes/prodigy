@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Oxanium, Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -16,6 +16,10 @@ const outfit = Outfit({
   display: "swap",
 });
 
+export const viewport: Viewport = {
+  themeColor: "#0d0a14",
+};
+
 export const metadata: Metadata = {
   title: {
     template: "%s | Prodigy",
@@ -24,6 +28,20 @@ export const metadata: Metadata = {
   description:
     "Platform kurasi sumber belajar STEM terbaik — Sains, Matematika, Data Science, AI, Programming, dan lebih banyak lagi. Semua gratis, terstruktur, dan dikurasi untuk kamu.",
   keywords: ["belajar STEM", "sains", "matematika", "programming", "data science", "AI", "web development"],
+  openGraph: {
+    title: "Prodigy — STEM Learning Hub",
+    description:
+      "Platform kurasi sumber belajar STEM terbaik — Sains, Matematika, Data Science, AI, Programming, dan lebih banyak lagi. Semua gratis, terstruktur, dan dikurasi untuk kamu.",
+    siteName: "Prodigy",
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Prodigy — STEM Learning Hub",
+    description:
+      "Platform kurasi sumber belajar STEM terbaik — Sains, Matematika, Data Science, AI, Programming, dan lebih banyak lagi. Semua gratis, terstruktur, dan dikurasi untuk kamu.",
+  },
 };
 
 export default function RootLayout({
