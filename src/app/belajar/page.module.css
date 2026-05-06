@@ -1,0 +1,163 @@
+.page {
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.pageHeader {
+  background: linear-gradient(135deg, rgba(27,16,33,0.9) 0%, rgba(14,61,53,0.5) 100%);
+  border-bottom: 1px solid var(--color-border);
+  padding: 60px 0 48px;
+  margin-bottom: 40px;
+}
+
+.eyebrow {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-teal);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  color: var(--color-text);
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: var(--color-muted);
+  font-size: 1rem;
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+/* ── Search ── */
+.searchWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 16px;
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 14px 44px 14px 46px;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  transition: border-color var(--transition);
+  outline: none;
+}
+
+.searchInput::placeholder {
+  color: var(--color-muted);
+}
+
+.searchInput:focus {
+  border-color: var(--color-teal);
+  box-shadow: 0 0 0 3px rgba(28,197,157,0.1);
+}
+
+.clearBtn {
+  position: absolute;
+  right: 14px;
+  background: none;
+  border: none;
+  color: var(--color-muted);
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 4px;
+  transition: color var(--transition);
+}
+.clearBtn:hover { color: var(--color-text); }
+
+/* ── Filters ── */
+.filterSection {
+  margin-bottom: 20px;
+}
+
+.filterLabel {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-muted);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+
+.pill:hover {
+  border-color: rgba(28,197,157,0.4);
+  color: var(--color-text);
+}
+
+.pillActive {
+  background: rgba(28,197,157,0.15);
+  border-color: var(--color-teal);
+  color: var(--color-teal);
+  font-weight: 600;
+}
+
+/* ── Result Meta ── */
+.resultMeta {
+  color: var(--color-muted);
+  font-size: 0.875rem;
+  margin: 24px 0 20px;
+}
+
+.resultMeta strong {
+  color: var(--color-teal);
+}
+
+/* ── Grid ── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* ── Empty State ── */
+.empty {
+  text-align: center;
+  padding: 80px 24px;
+  color: var(--color-muted);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.emptyIcon {
+  font-size: 3rem;
+  display: block;
+}

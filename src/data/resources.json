@@ -1,0 +1,505 @@
+{
+  "categories": [
+    {
+      "id": "mathematics-statistics",
+      "name": "Mathematics & Statistics",
+      "icon": "📐",
+      "color": "#f59e0b",
+      "description": "Pelajari pondasi matematika dan statistika yang menjadi dasar bagi ilmu pengetahuan alam, data science, dan rekayasa komputer.",
+      "resources": [
+        {
+          "id": "math-001",
+          "title": "3Blue1Brown",
+          "type": "video",
+          "url": "https://www.3blue1brown.com/",
+          "source": "YouTube",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["math", "linear algebra", "calculus", "visual"],
+          "description": "Kanal YouTube luar biasa yang menjelaskan matematika tingkat lanjut dengan animasi visual yang sangat intuitif."
+        },
+        {
+          "id": "math-002",
+          "title": "StatQuest with Josh Starmer",
+          "type": "video",
+          "url": "https://statquest.org/",
+          "source": "YouTube",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["statistics", "machine learning", "math"],
+          "description": "Penjelasan statistik dan algoritma machine learning yang sangat jelas, cocok untuk pemula."
+        },
+        {
+          "id": "math-003",
+          "title": "Online Statistics Book",
+          "type": "book",
+          "url": "https://onlinestatbook.com/2/index.html",
+          "source": "Web",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["statistics", "math"],
+          "description": "Buku interaktif pengantar statistik yang gratis dengan simulasi."
+        },
+        {
+          "id": "math-004",
+          "title": "Probability Course",
+          "type": "course",
+          "url": "https://www.probabilitycourse.com/",
+          "source": "Web",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["probability", "math", "statistics"],
+          "description": "Kursus probabilitas dan statistik untuk ilmu komputer dan teknik elektro."
+        },
+        {
+          "id": "math-005",
+          "title": "Seeing Theory - Statistics Visual",
+          "type": "article",
+          "url": "https://seeing-theory.brown.edu/",
+          "source": "Brown University",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["statistics", "probability", "visual"],
+          "description": "Eksplorasi visual konsep-konsep probabilitas dan statistika yang interaktif."
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science & Engineering",
+      "icon": "🔬",
+      "color": "#10b981",
+      "description": "Eksplorasi ilmu pengetahuan alam (fisika, kimia) dan prinsip rekayasa yang membentuk dunia di sekitar kita.",
+      "resources": [
+        {
+          "id": "sci-001",
+          "title": "The Crash Course",
+          "type": "video",
+          "url": "https://thecrashcourse.com/",
+          "source": "YouTube",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["science", "physics", "chemistry", "biology"],
+          "description": "Video animasi singkat yang merangkum berbagai topik sains dengan gaya yang menyenangkan."
+        },
+        {
+          "id": "sci-002",
+          "title": "Khan Academy",
+          "type": "course",
+          "url": "https://www.khanacademy.org/",
+          "source": "Khan Academy",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["science", "math", "physics", "chemistry"],
+          "description": "Platform belajar gratis yang memiliki kurikulum lengkap dari fisika, kimia, hingga biologi."
+        },
+        {
+          "id": "sci-003",
+          "title": "MIT OpenCourseWare",
+          "type": "course",
+          "url": "https://ocw.mit.edu/",
+          "source": "MIT",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["physics", "engineering", "chemistry"],
+          "description": "Ribuan materi kuliah MIT yang bisa diakses gratis, sangat baik untuk pendalaman sains dan teknik."
+        },
+        {
+          "id": "sci-004",
+          "title": "The Organic Chemistry Tutor",
+          "type": "video",
+          "url": "https://www.youtube.com/@TheOrganicChemistryTutor",
+          "source": "YouTube",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["chemistry", "physics", "math"],
+          "description": "Tutorial yang sangat jelas untuk topik sains sekolah menengah dan universitas tahun pertama."
+        },
+        {
+          "id": "sci-005",
+          "title": "LibreTexts",
+          "type": "book",
+          "url": "https://libretexts.org/",
+          "source": "Web",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["textbook", "science", "engineering"],
+          "description": "Perpustakaan buku teks terbuka (OER) untuk berbagai cabang sains dan teknik."
+        }
+      ]
+    },
+    {
+      "id": "data-science",
+      "name": "Data Science",
+      "icon": "📊",
+      "color": "#06b6d4",
+      "description": "Kuasai analisis data, visualisasi, dan storytelling untuk mengambil keputusan bisnis berbasis data.",
+      "resources": [
+        {
+          "id": "ds-001",
+          "title": "Microsoft Data Science for Beginners",
+          "type": "course",
+          "url": "https://microsoft.github.io/Data-Science-For-Beginners/#/",
+          "source": "Microsoft",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["data science", "python", "beginner"],
+          "description": "Kurikulum 10 minggu, 20 pelajaran dari Microsoft untuk memulai perjalanan data science."
+        },
+        {
+          "id": "ds-002",
+          "title": "Python Data Science Handbook",
+          "type": "book",
+          "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+          "source": "GitHub",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["python", "numpy", "pandas", "matplotlib"],
+          "description": "Buku referensi lengkap gratis (Jupyter Notebooks) untuk data science dengan Python oleh Jake VanderPlas."
+        },
+        {
+          "id": "ds-003",
+          "title": "Kaggle Learn",
+          "type": "course",
+          "url": "https://www.kaggle.com/learn",
+          "source": "Kaggle",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["python", "pandas", "data visualization", "sql"],
+          "description": "Kursus mini interaktif gratis dari Kaggle yang mencakup pandas, visualisasi, dan machine learning."
+        },
+        {
+          "id": "ds-004",
+          "title": "R for Data Science",
+          "type": "book",
+          "url": "https://r4ds.hadley.nz/",
+          "source": "Web",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["r", "data science", "tidyverse"],
+          "description": "Buku wajib bagi siapa saja yang ingin belajar data science menggunakan bahasa R."
+        },
+        {
+          "id": "ds-005",
+          "title": "SQLbolt",
+          "type": "course",
+          "url": "https://sqlbolt.com/",
+          "source": "Web",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["sql", "database", "data extraction"],
+          "description": "Belajar SQL melalui latihan interaktif yang sederhana dan mudah dipahami."
+        }
+      ]
+    },
+    {
+      "id": "ai-ml",
+      "name": "AI & Machine Learning",
+      "icon": "🤖",
+      "color": "#8b5cf6",
+      "description": "Pelajari kecerdasan buatan dari dasar hingga implementasi model deep learning tingkat lanjut.",
+      "resources": [
+        {
+          "id": "ai-001",
+          "title": "mlcourse.ai",
+          "type": "course",
+          "url": "https://mlcourse.ai/book/index.html",
+          "source": "Open Data Science",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["machine learning", "python", "algorithms"],
+          "description": "Kursus machine learning terbuka yang memadukan teori dan praktik dengan sangat baik."
+        },
+        {
+          "id": "ai-002",
+          "title": "Google Machine Learning Crash Course",
+          "type": "course",
+          "url": "https://developers.google.com/machine-learning/foundational-courses?hl=id",
+          "source": "Google",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["machine learning", "tensorflow"],
+          "description": "Pengenalan machine learning yang cepat dan praktis langsung dari engineer Google."
+        },
+        {
+          "id": "ai-003",
+          "title": "Dive into Deep Learning (D2L)",
+          "type": "book",
+          "url": "https://d2l.ai/",
+          "source": "Web",
+          "level": "Lanjut",
+          "language": "English",
+          "tags": ["deep learning", "pytorch", "tensorflow", "mxnet"],
+          "description": "Buku teks deep learning interaktif dengan kode, matematika, dan diskusi."
+        },
+        {
+          "id": "ai-004",
+          "title": "CS50 Artificial Intelligence with Python",
+          "type": "course",
+          "url": "https://cs50.harvard.edu/ai/2020/",
+          "source": "Harvard",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["ai", "python", "search", "logic"],
+          "description": "Eksplorasi konsep dasar AI tradisional dan modern menggunakan Python."
+        },
+        {
+          "id": "ai-005",
+          "title": "Hugging Face Course",
+          "type": "course",
+          "url": "https://huggingface.co/course/",
+          "source": "Hugging Face",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["nlp", "transformers", "deep learning"],
+          "description": "Belajar menggunakan model Transformer untuk NLP dan task AI modern lainnya."
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "name": "Programming & CS",
+      "icon": "💻",
+      "color": "#3b82f6",
+      "description": "Bangun pondasi kuat dalam ilmu komputer dan pemrograman dengan bahasa seperti Python, Java, C++, dan lainnya.",
+      "resources": [
+        {
+          "id": "prog-001",
+          "title": "CS50's Introduction to Computer Science",
+          "type": "course",
+          "url": "https://cs50.harvard.edu/x/",
+          "source": "Harvard",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["c", "python", "sql", "cs fundamentals"],
+          "description": "Pengantar ilmu komputer legendaris dari Harvard yang akan mengubah cara pikirmu."
+        },
+        {
+          "id": "prog-002",
+          "title": "Automate The Boring Stuff with Python",
+          "type": "book",
+          "url": "https://automatetheboringstuff.com/",
+          "source": "Web",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["python", "automation", "scripting"],
+          "description": "Buku Python praktis untuk pemula yang ingin langsung membuat program berguna."
+        },
+        {
+          "id": "prog-003",
+          "title": "Java Programming MOOC",
+          "type": "course",
+          "url": "https://java-programming.mooc.fi/",
+          "source": "University of Helsinki",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["java", "oop", "programming"],
+          "description": "Kursus Java komprehensif yang diakui secara global dari Universitas Helsinki."
+        },
+        {
+          "id": "prog-004",
+          "title": "Project Euler",
+          "type": "article",
+          "url": "https://projecteuler.net/",
+          "source": "Web",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["math", "algorithms", "problem solving"],
+          "description": "Kumpulan problem komputasi matematis yang menantang algoritma dan logikamu."
+        },
+        {
+          "id": "prog-005",
+          "title": "The Algorithms",
+          "type": "article",
+          "url": "https://the-algorithms.com/",
+          "source": "GitHub",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["algorithms", "data structures", "open source"],
+          "description": "Pustaka open source terbesar untuk implementasi struktur data dan algoritma dalam berbagai bahasa."
+        }
+      ]
+    },
+    {
+      "id": "web-mobile",
+      "name": "Web & Mobile Dev",
+      "icon": "🌐",
+      "color": "#ec4899",
+      "description": "Bangun aplikasi web modern dan aplikasi mobile cross-platform dengan teknologi terkini.",
+      "resources": [
+        {
+          "id": "web-001",
+          "title": "The Odin Project",
+          "type": "course",
+          "url": "https://www.theodinproject.com/",
+          "source": "Open Source",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["html", "css", "javascript", "fullstack"],
+          "description": "Kurikulum web development full-stack gratis yang sangat komprehensif dan berbasis proyek nyata."
+        },
+        {
+          "id": "web-002",
+          "title": "Full Stack Open",
+          "type": "course",
+          "url": "https://fullstackopen.com/en/",
+          "source": "University of Helsinki",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["react", "nodejs", "mongodb", "graphql"],
+          "description": "Belajar modern web development yang mendalam dengan React, Redux, Node.js, GraphQL, dan TypeScript."
+        },
+        {
+          "id": "web-003",
+          "title": "javascript.info",
+          "type": "article",
+          "url": "https://javascript.info/",
+          "source": "Web",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["javascript", "dom", "frontend"],
+          "description": "Tutorial JavaScript modern dari awal hingga lanjutan, sangat rinci dan mudah dimengerti."
+        },
+        {
+          "id": "mob-001",
+          "title": "Android Developer Courses",
+          "type": "course",
+          "url": "https://developer.android.com/courses",
+          "source": "Google",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["android", "kotlin", "mobile"],
+          "description": "Kursus resmi dari Google untuk belajar pengembangan aplikasi Android modern menggunakan Kotlin."
+        },
+        {
+          "id": "mob-002",
+          "title": "Udacity - Android App Development with Kotlin",
+          "type": "course",
+          "url": "https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012",
+          "source": "Udacity",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["android", "kotlin", "architecture"],
+          "description": "Kursus mendalam buatan Google untuk membangun aplikasi Android dengan arsitektur terbaik."
+        }
+      ]
+    },
+    {
+      "id": "game-dev",
+      "name": "Game Development",
+      "icon": "🎮",
+      "color": "#ef4444",
+      "description": "Wujudkan game impianmu menggunakan engine terpopuler di industri seperti Unity dan Unreal.",
+      "resources": [
+        {
+          "id": "game-001",
+          "title": "Unity Learn",
+          "type": "course",
+          "url": "https://learn.unity.com/",
+          "source": "Unity",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["unity", "c#", "3d", "2d"],
+          "description": "Platform resmi Unity yang berisi tutorial terstruktur dari game 2D sederhana hingga mekanik 3D kompleks."
+        },
+        {
+          "id": "game-002",
+          "title": "Learn Unreal Engine",
+          "type": "course",
+          "url": "https://www.unrealengine.com/en-US/learn",
+          "source": "Epic Games",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["unreal engine", "blueprints", "c++"],
+          "description": "Portal pembelajaran resmi untuk menguasai Unreal Engine 5."
+        },
+        {
+          "id": "game-003",
+          "title": "CS50 Game Development",
+          "type": "course",
+          "url": "https://cs50.harvard.edu/games/",
+          "source": "Harvard",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["lua", "c#", "unity", "game design"],
+          "description": "Eksplorasi desain game dengan membuat ulang game klasik seperti Pong, Mario, dan Portal."
+        },
+        {
+          "id": "game-004",
+          "title": "Making Games with Python & Pygame",
+          "type": "book",
+          "url": "https://inventwithpython.com/pygame/",
+          "source": "Web",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["python", "pygame", "2d games"],
+          "description": "Belajar dasar pemrograman game dengan bahasa Python dan library Pygame."
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity & IT",
+      "icon": "🔒",
+      "color": "#64748b",
+      "description": "Pelajari keamanan siber, ethical hacking, jaringan, dan layanan cloud untuk infrastruktur modern.",
+      "resources": [
+        {
+          "id": "sec-001",
+          "title": "CS50 Cyber Security",
+          "type": "course",
+          "url": "https://cs50.harvard.edu/cybersecurity/",
+          "source": "Harvard",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["security fundamentals", "cryptography", "web security"],
+          "description": "Pengenalan tentang cybersecurity, menjelaskan cara mengamankan data dan sistem."
+        },
+        {
+          "id": "sec-002",
+          "title": "TryHackMe",
+          "type": "course",
+          "url": "https://tryhackme.com/",
+          "source": "Web",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["ethical hacking", "cybersecurity", "hands-on"],
+          "description": "Platform interaktif dengan lab virtual untuk belajar meretas dan mempertahankan sistem."
+        },
+        {
+          "id": "sec-003",
+          "title": "pwn.college",
+          "type": "course",
+          "url": "https://pwn.college/",
+          "source": "ASU",
+          "level": "Lanjut",
+          "language": "English",
+          "tags": ["exploitation", "reverse engineering", "binary"],
+          "description": "Platform pelatihan keamanan siber tingkat lanjut untuk eksploitasi sistem dan binary."
+        },
+        {
+          "id": "sec-004",
+          "title": "AWS Skill Builder",
+          "type": "course",
+          "url": "https://explore.skillbuilder.aws/learn",
+          "source": "AWS",
+          "level": "Menengah",
+          "language": "English",
+          "tags": ["cloud computing", "aws", "infrastructure"],
+          "description": "Pusat pembelajaran resmi AWS untuk menguasai arsitektur dan layanan cloud."
+        },
+        {
+          "id": "sec-005",
+          "title": "CTF 101",
+          "type": "article",
+          "url": "https://ctf101.org/",
+          "source": "Web",
+          "level": "Pemula",
+          "language": "English",
+          "tags": ["ctf", "forensics", "cryptography", "web"],
+          "description": "Panduan dasar untuk mengikuti kompetisi Capture The Flag (CTF) dan jenis-jenis tantangannya."
+        }
+      ]
+    }
+  ]
+}

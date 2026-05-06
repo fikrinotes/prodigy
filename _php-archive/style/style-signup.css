@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #1e1f2dff;*/
+    background-image: url("../assets/background-login.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.signup-card {
+    background-color: whitesmoke;
+    width: 350px;
+    height: 480px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.heading {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: auto;
+    width: 45px;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+
+.title {
+    font-family: 'Oxanium', cursive;
+    font-weight: 550;
+    color:#1e1f2dff ;
+    font-size: 42px;
+    margin : 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.signup-text {
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;;
+    text-align: center;
+    border-bottom: solid 2px #1cc59dff;
+    width: 60%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+}
+
+.container-usia-gender {
+    display: flex;
+}
+
+.nama, .username, .pw, .email, .gender, .usia {
+    display: block;
+    border: none;
+    border-bottom: 2px solid #1cc59dff;
+    margin: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    outline: none;
+}
+
+.lblnama, .lblusername, .lblpw, .lblemail, .lblgender, .lblusia {
+    display: block;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+} 
+
+.blokgender {
+    margin-right: 8px;
+}
+
+.blokusia {
+    margin-left: 8px;
+}
+
+.formulir {
+    margin-top: 2em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.text-signup {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.daftar {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid #1cc59dff;
+}
+
+.button-submit {
+    margin-top: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #1cc59dff;
+    border-radius: 10px;
+}

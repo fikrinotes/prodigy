@@ -1,0 +1,132 @@
+.page {
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.pageHeader {
+  background: linear-gradient(135deg, rgba(27,16,33,0.95), rgba(14,61,53,0.4));
+  border-bottom: 1px solid var(--color-border);
+  padding: 48px 0;
+  margin-bottom: 48px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pageHeader::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--cat-color, #1cc59d) 20%, transparent), transparent 70%);
+  pointer-events: none;
+}
+
+.headerInner {}
+
+.breadcrumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-muted);
+  font-size: 0.875rem;
+  transition: color var(--transition);
+  margin-bottom: 24px;
+}
+.breadcrumb:hover { color: var(--color-teal); }
+
+.headerTop {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.iconWrap {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--cat-color, #1cc59d) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--cat-color, #1cc59d) 30%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon { font-size: 1.8rem; }
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.desc {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  max-width: 580px;
+  line-height: 1.6;
+}
+
+.levelBadges {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.levelBadge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: rgba(255,255,255,0.04);
+}
+
+.levelCount {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.levelLabel {
+  font-size: 0.82rem;
+  color: var(--color-muted);
+}
+
+.levelPemula   .levelCount { color: #86efac; }
+.levelMenengah .levelCount { color: #fde68a; }
+.levelLanjut   .levelCount { color: #fca5a5; }
+
+/* ── Content ── */
+.totalMeta {
+  color: var(--color-muted);
+  font-size: 0.875rem;
+  margin-bottom: 24px;
+}
+
+.totalNum {
+  color: var(--color-teal);
+  font-size: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.empty {
+  text-align: center;
+  padding: 80px 24px;
+  color: var(--color-muted);
+}
+
+.footer {
+  margin-top: 48px;
+}
