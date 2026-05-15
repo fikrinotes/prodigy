@@ -36,7 +36,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.bottom}>
-        <p>© {new Date().getFullYear()} Prodigy. Dibuat dengan ❤️ untuk para pelajar STEM.</p>
+        <p>© {new Date().getFullYear()} Prodigy. Dibuat dengan ❤️ oleh <a href="https://fikrinotes.vercel.app" target="_blank" rel="noopener noreferrer" className={styles.creatorLink}>Fikri</a>.</p>
       </div>
     </footer>
   );

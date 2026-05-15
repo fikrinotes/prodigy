@@ -75,3 +75,16 @@
   color: var(--color-muted);
   font-size: 0.85rem;
 }
+
+.creatorLink {
+  color: var(--color-teal);
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 0 0 12px rgba(6, 182, 212, 0.7);
+  transition: all 0.3s ease;
+}
+
+.creatorLink:hover {
+  color: var(--color-text);
+  text-shadow: 0 0 16px rgba(255, 255, 255, 0.8);
+}
